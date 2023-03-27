@@ -1,0 +1,11 @@
+.screenWrapper{
+    grid-area: screen;
+    background: #F6F0D8;
+    display: flex;
+    justify-content: center;
+}
+
+.mainScreen{
+    width: 80%;
+    margin-top: 70px;
+}

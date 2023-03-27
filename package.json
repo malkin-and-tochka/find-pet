@@ -1,17 +1,25 @@
 {
+  "home" : "https://malkin-and-tochka.github.io/find-pet",
   "name": "find-pet",
-  "version": "0.1.0",
+  "version": "5.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "formik": "^2.2.9",
+    "install": "^0.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +42,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "main",
+  "author": "malkin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malkin-and-tochka/find-pet.git"
+  },
+  "keywords": [
+    "hey"
+  ],
+  "bugs": {
+    "url": "https://github.com/malkin-and-tochka/find-pet/issues"
+  },
+  "homepage": "https://github.com/malkin-and-tochka/find-pet#readme"
 }

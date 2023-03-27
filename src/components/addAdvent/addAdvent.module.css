@@ -1,0 +1,33 @@
+.screenWrapper{
+    grid-area: screen;
+    background: #F6F0D8;
+    display: flex;
+    justify-content: center;
+    padding-bottom: calc(10vh - 4px);
+}
+.mainScreen{
+    width: 90%;
+}
+.column{
+    width: 100%;
+    margin-top: 10vh;
+    padding: 30px;
+    background: #D0BAF3;
+    border: 5px solid #000;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topInfo{
+    background: #FFA766;
+    border: 5px solid #000;
+    border-radius: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+
+    padding: 5px 15px;
+}

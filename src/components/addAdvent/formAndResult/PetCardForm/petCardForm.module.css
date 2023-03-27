@@ -1,0 +1,60 @@
+.mainWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    background: #C4F3CA;
+    padding: 50px 20px;
+    border: 5px solid #000;
+    border-radius: 50px;
+}
+.topInfo{
+    position: relative;
+    background: #FFA766;
+    border: 5px solid #000;
+    border-radius: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    padding: 5px 20px;
+}
+.cardWrapper{
+    min-width: 500px;
+    max-width: 500px;
+    border: 5px solid #000;
+    border-radius: 40px;
+    background: #D0BAF3;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+/*.photoOfPet{*/
+/*    height: calc(100% - 80px);*/
+/*    margin-left: 40px;*/
+/*    border:5px solid #000;*/
+/*    border-radius: 20px;*/
+/*}*/
+img{
+    margin-left: 20px;
+    border:5px solid #000;
+    border-radius: 20px;
+}
+.fromForm{
+    margin-top: 20px;
+    align-self: start;
+    width: 200px;
+    max-height: 300px;
+    border:4px solid #000;
+}
+.columnInfo{
+    margin: 20px 20px 20px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

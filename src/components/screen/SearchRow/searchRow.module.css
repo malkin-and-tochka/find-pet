@@ -1,0 +1,61 @@
+.searchRow {
+    border-radius: 50px;
+    border: 5px solid #000;
+    background: #D6EDD9;
+    height: 60px;
+
+    /*display: flex;*/
+    /*align-items: start;*/
+    /*justify-content: space-between;*/
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+.categoryAndInfoWrapper{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.choosing {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 18px 25px;
+    border: 3px solid #000;
+    border-radius: 50px;
+    background: #E1D4F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addCategory {
+    justify-self: end;
+    border: 3px solid #000;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding: 5px;
+
+    transition: 0.3s;
+}
+
+.addCategory:hover {
+    height: 45px;
+    width: 45px;
+    margin-right: 17.5px;
+    margin-top: 2.5px;
+}

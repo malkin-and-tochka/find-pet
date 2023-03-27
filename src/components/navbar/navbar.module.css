@@ -1,0 +1,56 @@
+.navbar{
+    width: 200px;
+    height: 100%;
+
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    border-right: 5px solid #000;
+    background: #FFA766;
+}
+.logo{
+    height: 120px;
+    width: 120px;
+    background: #F2EED1;
+    border: 5px solid #000;
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 30px;
+}
+.iconWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 110px;
+    gap: 5px;
+    margin-top: 40px;
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 15px;
+}
+.iconWrapper:hover{
+    background: #FF9141;
+}
+.profileIcon{
+
+}
+.addEventIcon{
+
+}
+a{
+    color: #000;
+}

@@ -1,0 +1,41 @@
+.column{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: calc(100%/10);
+}
+.userInfo {
+    min-height: 24%;
+    padding: 5px;
+    border: 4px solid #000;
+    border-radius: 20px;
+    background: #BCE0FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.description {
+    display: inline-block;
+    padding: 10px;
+    min-width: 100%;
+    border: 4px solid #000;
+    border-radius: 20px;
+    background: #F6F0D8;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.distinguishingFeatures {
+    display: inline-block;
+    padding: 10px;
+    border: 4px solid #000;
+    border-radius: 20px;
+    background: #C4F3CA;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
