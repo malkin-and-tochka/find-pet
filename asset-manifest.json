@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.66f7a830.css",
-    "main.js": "/static/js/main.f4501c89.js",
-    "static/js/787.2ca2a89f.chunk.js": "/static/js/787.2ca2a89f.chunk.js",
-    "static/media/Dog.jpg": "/static/media/Dog.2553ab7567b95b814d8e.jpg",
-    "index.html": "/index.html",
-    "main.66f7a830.css.map": "/static/css/main.66f7a830.css.map",
-    "main.f4501c89.js.map": "/static/js/main.f4501c89.js.map",
-    "787.2ca2a89f.chunk.js.map": "/static/js/787.2ca2a89f.chunk.js.map"
+    "main.css": "/find-pet/static/css/main.66f7a830.css",
+    "main.js": "/find-pet/static/js/main.671e6fc8.js",
+    "static/js/787.2ca2a89f.chunk.js": "/find-pet/static/js/787.2ca2a89f.chunk.js",
+    "static/media/Dog.jpg": "/find-pet/static/media/Dog.2553ab7567b95b814d8e.jpg",
+    "index.html": "/find-pet/index.html",
+    "main.66f7a830.css.map": "/find-pet/static/css/main.66f7a830.css.map",
+    "main.671e6fc8.js.map": "/find-pet/static/js/main.671e6fc8.js.map",
+    "787.2ca2a89f.chunk.js.map": "/find-pet/static/js/787.2ca2a89f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66f7a830.css",
-    "static/js/main.f4501c89.js"
+    "static/js/main.671e6fc8.js"
   ]
 }
