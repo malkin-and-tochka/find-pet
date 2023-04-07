@@ -37,7 +37,8 @@ const AdventForm = (props) => {
                                    onChange={onDescriptionChange} onBlur={handleChange}
                                    placeholder={"Description..."} text={"DESCRIPTION"}/>
                         <div className={style.inputWrapper}>
-                            <input className={style.inputPhoto} onBlur={handleChange} onChange={onImgChange} type={"file"} name={'img'}/>
+                            <input className={style.inputPhoto} onBlur={handleChange} onChange={onImgChange}
+                                   type={"file"} name={'img'}/>
                         </div>
                         <div className={style.buttonsRow}>
                             <button type={'submit'}>Result</button>
@@ -50,7 +51,7 @@ const AdventForm = (props) => {
     )
 }
 
-const FormInput = (props) => {
+export const FormInput = (props) => {
     return (<div className={style.fieldWrapper}>
         <span>{props.text}</span><br/>
         <Field value={props.value} name={props.name} onChange={props.onChange} className={style.description}

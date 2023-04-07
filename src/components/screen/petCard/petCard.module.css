@@ -2,9 +2,9 @@
     margin-top: 50px;
     width: 100%;
     height: 500px;
-    border: 5px solid #000;
+    border: 1px solid #D2D2D2;
     border-radius: 40px;
-    background: #D0BAF3;
+    background: #FFFFFF;
 
     display: flex;
     justify-content: space-between;
@@ -14,14 +14,12 @@
     height: calc(100% - 80px);
     width: 300px;
     margin-left: 40px;
-    border:5px solid #000;
     border-radius: 20px;
 }
-img{
+.cardWrapper img{
     height: calc(100% - 80px);
     width: 400px;
     margin-left: 40px;
-    border:5px solid #000;
     border-radius: 20px;
 }
 .columnInfo{

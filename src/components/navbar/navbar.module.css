@@ -1,56 +1,62 @@
-.navbar{
-    width: 200px;
-    height: 100%;
+.navbar {
+    width: 100vw;
+    height: 80px;
 
     position: fixed;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 
     color: #000;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
 
-    border-right: 5px solid #000;
-    background: #FFA766;
+    background: #FFFFFF;
 }
-.logo{
-    height: 120px;
-    width: 120px;
-    background: #F2EED1;
-    border: 5px solid #000;
-    border-radius: 25px;
 
+.iconsWrapperFromToggle {
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: center;
-
-    margin-top: 30px;
+    justify-content: space-between;
 }
-.iconWrapper{
+
+.navLinks {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 140px;
-    height: 110px;
-    gap: 5px;
-    margin-top: 40px;
-    transition: 0.3s;
-    padding: 5px;
-    border-radius: 15px;
+    gap: 30px;
 }
-.iconWrapper:hover{
-    background: #FF9141;
-}
-.profileIcon{
+
+
+.profileIcon {
 
 }
-.addEventIcon{
+
+.addEventIcon {
 
 }
-a{
-    color: #000;
+
+a {
+    color: #9B9B9B;
+}
+
+.none {
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .iconWrapper {
+        display: none;
+    }
+}
+@media screen and (max-width: 850px) {
+    .navLinks{
+        flex-direction: column;
+        top: 80px;
+        right: 10vw;
+        position: absolute;
+        background: #13304F;
+        gap: 0;
+    }
 }

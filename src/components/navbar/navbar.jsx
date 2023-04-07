@@ -1,34 +1,64 @@
 import style from './navbar.module.css'
 import Logo from "../../assets/img/imgOnComponent/logo";
-import ProfileIcon from "../../assets/img/imgOnComponent/ProfileIcon";
-import AddAdventIcon from "../../assets/img/imgOnComponent/AddAdventIcon";
 import {NavLink} from "react-router-dom";
-import MainPage from "../../assets/img/imgOnComponent/MainPage";
+import BurgerMenu from "./burger-menu/burgerMenu";
+import {useEffect, useState} from "react";
+import './navbar.css'
+
 
 const NavBar = () => {
+    let wrapper
+    useEffect(() => {
+        wrapper = document.querySelectorAll('.iconWrapper')
+    }, [])
+    wrapper = document.querySelectorAll('.iconWrapper')
+    const [toggle, setToggle] = useState(false)
+    const Toggle = () => {
+        setToggle(!toggle)
+        if (toggle) {
+            for (let i = 0; i < wrapper.length; i++) {
+                wrapper[i].style.display = 'none'
+            }
+        } else {
+            for (let i = 0; i < wrapper.length; i++) {
+                wrapper[i].style.display = 'flex'
+            }
+        }
+    }
     return (
         <div className={style.navbar}>
-            <div className={style.logo}>
-                <Logo/>
+            <div className={style.iconsWrapperFromToggle}>
+                <div>
+                    <Logo/>
+                </div>
+                <div className={style.navLinks}>
+                    <NavLink to='/profile'
+                             className={`iconWrapper`}>
+                        {/*<ProfileIcon/>*/}
+                        <p>
+                            PROFILE
+                        </p>
+                    </NavLink>
+                    <NavLink to='/addAdvent' className={`iconWrapper`}>
+                        {/*<AddAdventIcon/>*/}
+                        ADD ADVENT
+                    </NavLink>
+                    <NavLink to='/mainScreen' className={`iconWrapper`}>
+                        {/*<MainPage/>*/}
+                        <div>
+                            MAIN SCREEN
+                        </div>
+                    </NavLink>
+                    <NavLink to='/mapTest' className={`iconWrapper`}>
+                        {/*<MainPage/>*/}
+                        <div>
+                            MAP TEST
+                        </div>
+                    </NavLink>
+                </div>
+
+                <BurgerMenu Toggle={Toggle} toggle={toggle}/>
             </div>
-            <NavLink to='/profile' className={style.profileIcon && style.iconWrapper}>
-                <ProfileIcon/>
-                <div>
-                    PROFILE
-                </div>
-            </NavLink>
-            <NavLink to='/addAdvent' className={style.addEventIcon && style.iconWrapper}>
-                <AddAdventIcon/>
-                <div>
-                    ADD ADVENT
-                </div>
-            </NavLink>
-            <NavLink to='/mainScreen' className={style.addEventIcon && style.iconWrapper}>
-                <MainPage/>
-                <div>
-                    MAIN SCREEN
-                </div>
-            </NavLink>
         </div>
     )
 }

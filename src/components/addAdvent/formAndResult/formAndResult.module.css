@@ -1,6 +1,15 @@
 .formAndResult{
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    width: 100%;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .formAndResult{
+        flex-direction: column-reverse;
+        margin: 0;
+        gap: 0;
+    }
+}
+@media screen and (max-width: 660px) {
 }

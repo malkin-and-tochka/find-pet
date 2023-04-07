@@ -1,0 +1,34 @@
+
+.addEventIcon {
+
+}
+.iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: 0.3s;
+    padding: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .iconWrapper {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .iconWrapper {
+        display: block;
+    }
+}
+@media screen and (max-width: 850px) {
+    .iconWrapper{
+        color: #fff;
+    }
+    .iconWrapper:hover{
+        background: #F1F1F1;
+        color: #13304F;
+    }
+}

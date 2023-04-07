@@ -7,9 +7,9 @@
 .userInfo {
     min-height: 24%;
     padding: 5px;
-    border: 4px solid #000;
+    border: 2px solid #D2D2D2;
     border-radius: 20px;
-    background: #BCE0FF;
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,9 +18,9 @@
     display: inline-block;
     padding: 10px;
     min-width: 100%;
-    border: 4px solid #000;
+    border: 2px solid #D2D2D2;
     border-radius: 20px;
-    background: #F6F0D8;
+    background: #fff;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -30,9 +30,9 @@
 .distinguishingFeatures {
     display: inline-block;
     padding: 10px;
-    border: 4px solid #000;
+    border: 2px solid #D2D2D2;
     border-radius: 20px;
-    background: #C4F3CA;
+    background: #fff;
 
     font-family: 'Roboto';
     font-style: normal;

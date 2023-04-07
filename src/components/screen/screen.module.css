@@ -1,6 +1,6 @@
 .screenWrapper{
     grid-area: screen;
-    background: #F6F0D8;
+    background: #EDEEF0;
     display: flex;
     justify-content: center;
 }

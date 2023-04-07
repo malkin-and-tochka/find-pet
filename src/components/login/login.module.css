@@ -1,0 +1,53 @@
+.loginWrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FormWrapper{
+    background: #fff;
+    border: 2px solid #D2D2D2;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+.loginWrapper button{
+    /*background: #114884;*/
+    /*color: #fff;*/
+    margin-top: 10px;
+    /*padding: 10px;*/
+    background: #114884;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 10px;
+
+    transition:0.3s
+}
+.loginWrapper button:hover{
+    background: #13304F;
+}
+.buttonRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttonRow .register{
+    background: #13304F;
+    position: relative;
+}
+.buttonRow .register{
+    background: #001935;
+}
+.register::after{
+    content: 'Not registered?';
+    position: absolute;
+    color: black;
+    top: -20px;
+    left: 0;
+    font-size: 15px;
+}

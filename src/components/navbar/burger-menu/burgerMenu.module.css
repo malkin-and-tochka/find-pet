@@ -1,0 +1,65 @@
+.menuBtn {
+    width: 64px;
+    height: 64px;
+    position: relative;
+    z-index:2;
+    cursor: pointer;
+    display: none;
+}
+
+.menuBtn span {
+    width: 48px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222222;
+    transition: all 0.5s;
+    border-radius: 50px;
+}
+.active span {
+    width: 48px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222222;
+    transition: all 0.5s;
+    border-radius: 50px;
+}
+.active{
+    width: 64px;
+    height: 64px;
+    position: relative;
+    z-index:2;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.menuBtn span:nth-of-type(2) {
+    top: calc(50% - 15px);
+}
+.menuBtn span:nth-of-type(3) {
+    top: calc(50% + 15px);
+}
+
+.active span:nth-of-type(1) {
+    display: none;
+}
+.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);
+}
+.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+}
+
+
+@media screen and (max-width: 1000px) {
+    .menuBtn{
+        display: block;
+    }
+}

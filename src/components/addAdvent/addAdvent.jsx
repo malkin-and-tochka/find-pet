@@ -6,9 +6,9 @@ const AddAdvent = () => {
         <div className={style.screenWrapper}>
             <div className={style.mainScreen}>
                 <div className={style.column}>
-                    <div className={style.topInfo}>
-                        Post your advent
-                    </div>
+                    {/*<div className={style.topInfo}>*/}
+                    {/*    Post your advent*/}
+                    {/*</div>*/}
                     <FormAndResult/>
                 </div>
             </div>

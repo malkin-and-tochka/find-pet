@@ -12,7 +12,7 @@ const PetDescriptionForm =(props)=>{
                         {props.data || <span>Data</span>}
                     </div>
                 </div>
-                <button>
+                <button className={style.respond}>
                     Respond
                 </button>
             </div>
